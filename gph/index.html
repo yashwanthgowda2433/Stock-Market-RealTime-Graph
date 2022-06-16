@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <canvas width="1280" height="720" id="canvas"></canvas>
+        
+<script src="pingpoliCandlestickChart.js"></script>
+<script src="pingpoliWebSocket.js"></script>
+<!-- <script src="TechnicalIndicators.js"></script> -->
+<script src="CandlestickStream1.js"></script>
+
+
+<script>
+var candlestickStream = new CandlestickStream( "btceur" , "5m" );
+candlestickStream.start();
+</script>
+
+    </body>
+</html>

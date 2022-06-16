@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Custom Graph</title>
+    </head>
+    <body>
+        <h1>Trades</h1>
+        <div id="chart"></div>
+
+        <div id="trades"></div>
+
+        
+
+
+
+        <script src="lightweight-charts.standalone.production.js"></script>
+        
+        <script>
+            // var binanceSocket = new WebSocket("wss://stream.binance.com:9443/ws/btcusdt@trade");
+            var tradeDiv = document.getElementById('trades')
+            // binanceSocket.onmessage = function(event){
+            //     console.log(event.data)
+            //     var messageObject = JSON.parse(event.data)
+            //     tradeDiv.append(messageObject.p)
+            // }
+            // get a few recent candlesticks before starting the stream
+    
+        </script>
+
+        <!-- <script src="chart.js"></script> -->
+        <script src="candle.js"></script>
+
+        
+    </body>
+</html>
